@@ -32,15 +32,20 @@
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
         <link rel="stylesheet" href="css/onsenui.css">
-        <link rel="stylesheet" href="css/onsen-css-components.css">
-        <script src="js/onsenui.min.js"></script>
+        <link rel="stylesheet" href="css/onsen-css-components.min.css">
+        <script type="text/javascript" src="js/onsenui.min.js"></script>
+       <script type="text/javascript" src="cordova.js"></script>
+        <script>
+            ons.ready(function() {
+            });
+            </script>
+
         <title>Hello World</title>
     </head>
     <body>
-        <ons-button onclick="alert('Hello World!')">Click Me</ons-button>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        
+       <button onclick="alert('BLERP');">Mer</button>
+      <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
